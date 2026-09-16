@@ -149,6 +149,25 @@
       margin-right: 10px;
     }
 
+    .menu-links .menu-ticket {
+      margin-top: 20px;
+      padding: 15px 20px;
+      background: var(--orange);
+      color: #100b08;
+      border: 1px solid var(--orange);
+      font-family: var(--sans);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      transition: .25s ease;
+    }
+
+    .menu-links .menu-ticket:hover {
+      background: transparent;
+      color: var(--cream);
+    }
+
     /* ---------- SHARED ---------- */
 
     section {
@@ -204,9 +223,6 @@
       font-size: 10px;
       letter-spacing: .16em;
       text-transform: uppercase;
-    }
-
-    .link:hover {
       text-decoration: underline;
     }
 
@@ -442,7 +458,7 @@
       min-height: 520px;
       display: flex;
       align-items: center;
-      background: linear-gradient( rgba(8, 7, 6, 0.65), rgba(8, 7, 6, 0.65)), url("Dj Azzy.png");
+      background: linear-gradient( rgba(8, 7, 6, 0.65), rgba(8, 7, 6, 0.65)), url("assets/DJ Azzy.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
